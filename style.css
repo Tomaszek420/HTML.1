@@ -14,12 +14,14 @@ color:#006400;
 position: sticky;
 top: 0;
 background-color:white;
-padding: 1,2%;
+padding: 8px;
+height: 40px;
+margin: 0;
 }
 
 .sticky-menu1 img {
 float: left;
-margin-top: -10px;
+margin-top: -5px;
 }
 
 .sticky-section1 {
@@ -39,7 +41,7 @@ background-color:#bdf0f0;
 text-decoration:none;
 padding: 4px;
 font-size: 20px;
-margin-right: 2px;
+margin-right: 4px;
 font-weight: 800;
 }
 
@@ -65,3 +67,4 @@ font-weight: 700;
 font-size: 45px;
 padding-left: 330px;
 }
+
