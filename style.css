@@ -68,3 +68,27 @@ font-size: 45px;
 padding-left: 12%;
 }
 
+@media (max-width: 768px) {
+.link {
+color:#FFFFFF;
+background-color:#bdf0f0;
+text-decoration:none;
+padding: 10%;
+font-size: 80%;
+margin-right: 10%;
+font-weight: 800;
+	}
+}
+
+
+@media (max-width: 480px) {
+.link {
+color:#FFFFFF;
+background-color:#bdf0f0;
+text-decoration:none;
+padding: 10%;
+font-size: 80%;
+margin-right: 10%;
+font-weight: 800;
+	}
+}
