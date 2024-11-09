@@ -85,6 +85,25 @@ padding-left: 2%;
 padding-right: 2%;
 }
 
+.sc1 {
+    margin: 8px;
+    padding: 12px;
+    color: #5A5959;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s; /* Upewnij się, że dodajesz transformację dla płynnego efektu */
+    font-weight: 700;
+}
+
+.sc1:hover { /* Poprawioną część zmieniamy na ":hover" */
+    color: #0F0E0F;
+    transform: scale(1.20);
+}
+
+.separator1 {
+    padding: 1px;
+    color: #303030;
+}
+
 @media (max-width: 650px) {
 
 .link {
@@ -135,4 +154,25 @@ font-weight: 600;
 font-size: 90%;
 padding-left: 2%;
 padding-right: 2%;
+}
+
+.sc1 {
+    margin: 4px;
+    padding: 4px;
+    color: #5A5959;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s; /* Upewnij się, że dodajesz transformację dla płynnego efektu */
+    font-weight: 600;
+    font-size: 8px;
+}
+
+.sc1:hover { /* Poprawioną część zmieniamy na ":hover" */
+    color: #0F0E0F;
+    transform: scale(1.20);
+}
+
+.separator1 {
+    padding: 1px;
+    color: #303030;
+    font-size: 8px;
 }}
